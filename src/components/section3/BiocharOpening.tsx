@@ -19,7 +19,7 @@ export function BiocharOpening() {
       {/* Credibility opening */}
       <div className="relative min-h-[100svh] overflow-hidden">
         <img
-          src={kiln}
+          src="https://i.postimg.cc/qMx3zs9W/Whats-App-Image-2026-01-09-at-5-54-28-PM.jpg"
           alt="Artisanal biochar kiln burning at a rural production site at dawn"
           width={1600}
           height={1008}
@@ -65,7 +65,7 @@ export function BiocharOpening() {
       {/* Distributed philosophy */}
       <div className="relative min-h-[100svh] overflow-hidden">
         <img
-          src={distributed}
+          src="https://i.postimg.cc/hG3Lcwjc/E9ACE7A0-8F0E-4555-AD36-6EB8581D2A5A.jpg"
           alt="Aerial view of dispersed rural production sites across farmland"
           width={1600}
           height={1008}

@@ -11,27 +11,27 @@ const STAGES = [
   {
     key: "Farmers",
     line: "We work directly with farming communities — educating, registering, coordinating and paying farmers for usable crop residue.",
-    image: farmers,
+    image: "https://i.postimg.cc/RFQDP4dR/IMG-7345.jpg",
   },
   {
     key: "Map",
     line: "Fields, biomass availability, collection clusters, storage points and destinations are mapped before movement begins.",
-    image: map,
+    image: "https://i.postimg.cc/L5JjJVJn/Whats-App-Image-2026-01-09-at-5-54-11-PM.jpg",
   },
   {
     key: "Machines",
     line: "Balers, tractors, loaders and other equipment are deployed around harvest windows and biomass clusters.",
-    image: machines,
+    image: "https://i.postimg.cc/ydXbfsjr/IMG-7218.jpg",
   },
   {
     key: "Bale",
     line: "Loose residue is collected and compacted for efficient handling and transportation.",
-    image: bale,
+    image: "https://i.postimg.cc/hPfkGszm/IMG-7221.jpg",
   },
   {
     key: "Store",
     line: "Seasonal harvests are aggregated and stored to create dependable supply beyond the harvest window.",
-    image: store,
+    image: "https://i.postimg.cc/ydXbfsjr/IMG-7218.jpg",
   },
   {
     key: "Move",

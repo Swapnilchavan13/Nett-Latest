@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/nettzero-logo.asset.json";
+import logo from "@/assets/nettzero-logo.webp";
 
 const LINKS = [
   { id: "section-1-carbon", label: "The Carbon Placement Problem" },
@@ -40,7 +40,7 @@ export function SiteHeader() {
             aria-label="NettZero — back to top"
           >
             <img
-              src={logo.url}
+              src={logo}
               alt="NettZero"
               className="h-7 w-auto"
             />
@@ -63,7 +63,7 @@ export function SiteHeader() {
           open ? "opacity-100" : "pointer-events-none opacity-0"
         }`}
       >
-        <ul className="mx-auto flex h-full max-w-[1400px] flex-col justify-center gap-6 px-6 sm:px-8">
+        <ul className="mx-auto flex h-full max-w-[1400px] flex-col justify-center gap-4 px-6 sm:px-8">
           {LINKS.map((link, i) => (
             <li key={link.id}>
               <button

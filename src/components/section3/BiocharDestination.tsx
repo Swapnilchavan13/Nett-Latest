@@ -32,7 +32,7 @@ export function BiocharDestination() {
         <Reveal threshold={0.2} delay={200}>
           <figure className="relative h-[52svh] overflow-hidden">
             <img
-              src={biocharSoil}
+              src="https://i.postimg.cc/4yYpY1Yh/8981390D-7A7C-4488-9CD7-89C945C51CFB.jpg"
               alt="Hands working biochar into dark farm soil"
               width={1600}
               height={1008}

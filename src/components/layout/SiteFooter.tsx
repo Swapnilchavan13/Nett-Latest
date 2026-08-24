@@ -1,4 +1,4 @@
-import logo from "@/assets/nettzero-logo.asset.json";
+import logo from "@/assets/nettzero-logo.webp";
 import { CarbonAtom } from "@/components/section1/CarbonAtom";
 
 const SECTIONS = [
@@ -28,7 +28,7 @@ export function SiteFooter() {
       <div className="relative mx-auto max-w-[1400px] px-6 py-[12svh] sm:px-10">
         <div className="grid gap-[6svh] lg:grid-cols-[1.1fr_1fr]">
           <div>
-            <img src={logo.url} alt="NettZero" className="h-9 w-auto" />
+            <img src={logo} alt="NettZero" className="h-9 w-auto" />
             <p className="body-note mt-8 max-w-md text-carbon/70">
               Too much carbon in the air. Too little in the soil. We intercept neglected biomass and
               return its carbon to the ground.

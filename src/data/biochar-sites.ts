@@ -35,9 +35,9 @@ export const BIOCHAR_SITES: BiocharSite[] = [
     about:
       "Short description of the site, the local biomass context and why this location matters. Two to three lines.",
     gallery: [
-      { src: siteA, alt: "Biochar production site — placeholder photograph" },
-      { src: siteB, alt: "Freshly produced biochar — placeholder photograph" },
-      { src: siteC, alt: "Site landscape — placeholder photograph" },
+      { src: "https://i.postimg.cc/PqFWTcxj/Whats-App-Image-2026-01-09-at-5-54-26-PM.jpg", alt: "Biochar production site — placeholder photograph" },
+      { src: "https://i.postimg.cc/PqFWTcxj/Whats-App-Image-2026-01-09-at-5-54-26-PM.jpg", alt: "Freshly produced biochar — placeholder photograph" },
+      { src: "https://i.postimg.cc/PqFWTcxj/Whats-App-Image-2026-01-09-at-5-54-26-PM.jpg", alt: "Site landscape — placeholder photograph" },
     ],
   },
   {
@@ -49,9 +49,9 @@ export const BIOCHAR_SITES: BiocharSite[] = [
     about:
       "Short description of the site, the local biomass context and why this location matters. Two to three lines.",
     gallery: [
-      { src: siteC, alt: "Site landscape — placeholder photograph" },
-      { src: kiln, alt: "Kiln in operation — placeholder photograph" },
-      { src: siteB, alt: "Freshly produced biochar — placeholder photograph" },
+      { src: "https://i.postimg.cc/k4Fpjqsk/IMG-7388.jpg", alt: "Site landscape — placeholder photograph" },
+      { src: "https://i.postimg.cc/k4Fpjqsk/IMG-7388.jpg", alt: "Kiln in operation — placeholder photograph" },
+      { src: "https://i.postimg.cc/k4Fpjqsk/IMG-7388.jpg", alt: "Freshly produced biochar — placeholder photograph" },
     ],
   },
   {
@@ -63,9 +63,9 @@ export const BIOCHAR_SITES: BiocharSite[] = [
     about:
       "Short description of the site, the local biomass context and why this location matters. Two to three lines.",
     gallery: [
-      { src: kiln, alt: "Kiln in operation — placeholder photograph" },
-      { src: siteA, alt: "Operations crew — placeholder photograph" },
-      { src: biocharSoil, alt: "Biochar going back to soil — placeholder photograph" },
+      { src: "https://i.postimg.cc/hG3Lcwjc/E9ACE7A0-8F0E-4555-AD36-6EB8581D2A5A.jpg", alt: "Kiln in operation — placeholder photograph" },
+      { src: "https://i.postimg.cc/hG3Lcwjc/E9ACE7A0-8F0E-4555-AD36-6EB8581D2A5A.jpg", alt: "Operations crew — placeholder photograph" },
+      { src: "https://i.postimg.cc/hG3Lcwjc/E9ACE7A0-8F0E-4555-AD36-6EB8581D2A5A.jpg", alt: "Biochar going back to soil — placeholder photograph" },
     ],
   },
   {
@@ -77,9 +77,9 @@ export const BIOCHAR_SITES: BiocharSite[] = [
     about:
       "Short description of the site, the local biomass context and why this location matters. Two to three lines.",
     gallery: [
-      { src: siteB, alt: "Freshly produced biochar — placeholder photograph" },
-      { src: mrv, alt: "Field measurement — placeholder photograph" },
-      { src: siteC, alt: "Site landscape — placeholder photograph" },
+      { src: "https://i.postimg.cc/Pfy7YfP5/IMG-7828.jpg", alt: "Freshly produced biochar — placeholder photograph" },
+      { src: "https://i.postimg.cc/Pfy7YfP5/IMG-7828.jpg", alt: "Field measurement — placeholder photograph" },
+      { src: "https://i.postimg.cc/Pfy7YfP5/IMG-7828.jpg", alt: "Site landscape — placeholder photograph" },
     ],
   },
   {
@@ -91,9 +91,9 @@ export const BIOCHAR_SITES: BiocharSite[] = [
     about:
       "Short description of the site, the local biomass context and why this location matters. Two to three lines.",
     gallery: [
-      { src: biocharSoil, alt: "Biochar going back to soil — placeholder photograph" },
-      { src: siteA, alt: "Operations crew — placeholder photograph" },
-      { src: kiln, alt: "Kiln in operation — placeholder photograph" },
+      { src: "https://i.postimg.cc/mr6YBqrv/8981390D-7A7C-4488-9CD7-89C945C51CFB.jpg", alt: "Biochar going back to soil — placeholder photograph" },
+      { src: "https://i.postimg.cc/mr6YBqrv/8981390D-7A7C-4488-9CD7-89C945C51CFB.jpg", alt: "Operations crew — placeholder photograph" },
+      { src: "https://i.postimg.cc/mr6YBqrv/8981390D-7A7C-4488-9CD7-89C945C51CFB.jpg", alt: "Kiln in operation — placeholder photograph" },
     ],
   },
   {
@@ -105,9 +105,9 @@ export const BIOCHAR_SITES: BiocharSite[] = [
     about:
       "Short description of the site, the local biomass context and why this location matters. Two to three lines.",
     gallery: [
-      { src: mrv, alt: "Field measurement — placeholder photograph" },
-      { src: siteC, alt: "Site landscape — placeholder photograph" },
-      { src: siteA, alt: "Operations crew — placeholder photograph" },
+      { src: "https://i.postimg.cc/d3pJ5tSv/Homepage-Slider3-Farmers2.png", alt: "Field measurement — placeholder photograph" },
+      { src: "https://i.postimg.cc/d3pJ5tSv/Homepage-Slider3-Farmers2.png", alt: "Site landscape — placeholder photograph" },
+      { src: "https://i.postimg.cc/d3pJ5tSv/Homepage-Slider3-Farmers2.png", alt: "Operations crew — placeholder photograph" },
     ],
   },
 ];
