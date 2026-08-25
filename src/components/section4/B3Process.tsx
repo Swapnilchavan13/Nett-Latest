@@ -7,12 +7,12 @@ import bags from "@/assets/s4-bags.jpg";
 import biochar from "@/assets/s3-biochar-soil.jpg";
 
 const STEPS = [
-  { n: "01", name: "Biochar", src: biochar, alt: "Stable black biochar, the carbon foundation of B3", note: "Stable carbon in." },
-  { n: "02", name: "Prepare", src: prepare, alt: "Biochar sieved to the required particle profile", note: "Milled and sieved to the required particle profile." },
-  { n: "03", name: "Blend", src: blend, alt: "Biochar blended with organic material", note: "Blended with organic material." },
-  { n: "04", name: "Inoculate", src: inoculate, alt: "Jeevamrut biological inoculant poured over the blend", note: "Biologically inoculated with Jeevamrut." },
-  { n: "05", name: "Cure", src: cure, alt: "Blended material curing in covered heaps", note: "Cured for approximately 12 days." },
-  { n: "06", name: "B3", src: bags, alt: "Finished B3 packed into bags", note: "Finished, bagged, field-ready." },
+  { n: "01", name: "Biochar", src: "https://iili.io/BJRt29V.jpg", alt: "Stable black biochar, the carbon foundation of B3", note: "Stable carbon in." },
+  { n: "02", name: "Prepare", src: "https://iili.io/q5thJR4.jpg", alt: "Biochar sieved to the required particle profile", note: "Milled and sieved to the required particle profile." },
+  { n: "03", name: "Blend", src: "https://iili.io/q5D01lR.jpg", alt: "Biochar blended with organic material", note: "Blended with organic material." },
+  { n: "04", name: "Inoculate", src: "https://iili.io/q5D0ESp.jpg", alt: "Jeevamrut biological inoculant poured over the blend", note: "Biologically inoculated with Jeevamrut." },
+  { n: "05", name: "Cure", src: "https://iili.io/BJ5PVIe.jpg", alt: "Blended material curing in covered heaps", note: "Cured for approximately 12 days." },
+  { n: "06", name: "B3", src: "https://iili.io/BJ5i23l.jpg", alt: "Finished B3 packed into bags", note: "Finished, bagged, field-ready." },
 ];
 
 export function B3Process() {

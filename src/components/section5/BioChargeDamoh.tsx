@@ -12,20 +12,20 @@ import team from "@/assets/s5-team.jpg";
 
 /** Placeholder photography — replace each `src` with site imagery when available. */
 const YARD = [
-  { src: inbound, alt: "Biomass arriving at the Damoh hub", cap: "Biomass arriving" },
-  { src: machinery, alt: "Loader moving processed biomass", cap: "Machinery" },
-  { src: shredding, alt: "Biomass shredding and processing line", cap: "Processing" },
-  { src: processed, alt: "Sized, processed biomass fuel", cap: "Processed biomass" },
+  { src: "https://iili.io/q5D0VRI.jpg", alt: "Biomass arriving at the Damoh hub", cap: "Biomass arriving" },
+  { src: "https://iili.io/fkMuDyF.jpg", alt: "Loader moving processed biomass", cap: "Machinery" },
+  { src: "https://iili.io/q5th2b2.jpg", alt: "Biomass shredding and processing line", cap: "Processing" },
+  { src: "https://iili.io/q5thJR4.jpg", alt: "Sized, processed biomass fuel", cap: "Processed biomass" },
   { src: quality, alt: "Fuel parameters being tested against customer requirements", cap: "Quality" },
-  { src: team, alt: "Damoh operations team", cap: "Operations team" },
+  { src: "https://iili.io/BJRtkUx.jpg", alt: "Damoh operations team", cap: "Operations team" },
 ];
 
 const JOURNEY = [
-  { key: "Inbound", src: inbound, alt: "Trailer of biomass arriving at the hub", line: "Biomass sourced through NettZero's farmer and collection network arrives at the Damoh hub." },
-  { key: "Aggregation & storage", src: storage, alt: "Covered biomass storage warehouse", line: "Large seasonal biomass volumes are consolidated and managed for dependable supply." },
-  { key: "Processing", src: shredding, alt: "Biomass being shredded and sized", line: "Biomass is prepared and sized to create a more consistent industrial fuel input." },
-  { key: "Quality", src: quality, alt: "Moisture and GCV testing of biomass samples", line: "Moisture, GCV and other relevant fuel parameters are monitored against customer requirements." },
-  { key: "Dispatch", src: loading, alt: "Prepared fuel being loaded for dispatch", line: "Prepared BioCharge is loaded and delivered according to industrial demand." },
+  { key: "Inbound", src: "https://iili.io/BJ5Pe2V.jpg", alt: "Trailer of biomass arriving at the hub", line: "Biomass sourced through NettZero's farmer and collection network arrives at the Damoh hub." },
+  { key: "Aggregation & storage", src: "https://iili.io/fOZpqXI.png", alt: "Covered biomass storage warehouse", line: "Large seasonal biomass volumes are consolidated and managed for dependable supply." },
+  { key: "Processing", src: "https://iili.io/fe5mnaa.jpg", alt: "Biomass being shredded and sized", line: "Biomass is prepared and sized to create a more consistent industrial fuel input." },
+  { key: "Quality", src: "https://iili.io/fOZaFZQ.jpg", alt: "Moisture and GCV testing of biomass samples", line: "Moisture, GCV and other relevant fuel parameters are monitored against customer requirements." },
+  { key: "Dispatch", src: "https://iili.io/f50DQeV.jpg", alt: "Prepared fuel being loaded for dispatch", line: "Prepared BioCharge is loaded and delivered according to industrial demand." },
 ];
 
 export function BioChargeDamoh() {
@@ -34,7 +34,7 @@ export function BioChargeDamoh() {
       {/* Full-width transition */}
       <div className="relative min-h-[100svh] overflow-hidden">
         <img
-          src={aerial}
+          src="https://iili.io/BJ5PrQa.jpg"
           alt="Wide aerial view of the BioCharge biomass hub at Damoh"
           width={1600}
           height={1000}

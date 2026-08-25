@@ -36,7 +36,7 @@ export function B3Problem() {
       {/* Micro: biochar particle into living soil */}
       <div className="relative min-h-[100svh] overflow-hidden">
         <img
-          src={socMacro}
+          src="https://iili.io/q5tXyUG.jpg"
           alt="Macro view of a porous biochar particle within living soil threaded with fine mycelium"
           width={1600}
           height={1008}

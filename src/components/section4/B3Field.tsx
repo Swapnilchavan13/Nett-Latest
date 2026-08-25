@@ -6,9 +6,9 @@ import application from "@/assets/s4-application.jpg";
 import paddy from "@/assets/s4-paddy-landscape.jpg";
 
 const FRAMES = [
-  { src: delivery, alt: "B3 bags arriving by trailer in a village", cap: "B3 arriving in the village" },
-  { src: meeting, alt: "Field team meeting farmers to explain B3 application", cap: "Farmer meetings and field teams" },
-  { src: application, alt: "Farmer broadcasting B3 across a puddled paddy field", cap: "Basal application in paddy" },
+  { src: "https://iili.io/qcZWRpe.jpg", alt: "B3 bags arriving by trailer in a village", cap: "B3 arriving in the village" },
+  { src: "https://iili.io/fkEi6NV.jpg", alt: "Field team meeting farmers to explain B3 application", cap: "Farmer meetings and field teams" },
+  { src: "https://iili.io/fOZYyF9.jpg", alt: "Farmer broadcasting B3 across a puddled paddy field", cap: "Basal application in paddy" },
 ];
 
 export function B3Field() {
@@ -51,7 +51,7 @@ export function B3Field() {
       {/* Scale */}
       <div className="relative min-h-[100svh] overflow-hidden">
         <img
-          src={paddy}
+          src="https://igrain.in/admin/images/1768304785.jpg"
           alt="Expansive rice paddy landscape at dawn with farmers on the bunds"
           width={1920}
           height={1080}

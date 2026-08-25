@@ -7,7 +7,7 @@ export function B3Women() {
     <section className="relative bg-carbon text-atmosphere">
       <div className="relative min-h-[100svh] overflow-hidden">
         <img
-          src={women1}
+          src="https://iili.io/q5D0eff.jpg"
           alt="All-women production team blending and packing B3 at the manufacturing facility"
           width={1600}
           height={1008}
@@ -43,7 +43,7 @@ export function B3Women() {
         <Reveal threshold={0.15}>
           <figure className="h-[56svh] overflow-hidden">
             <img
-              src={women2}
+              src="https://iili.io/BxOGfEu.jpg"
               alt="A production operator weighing and recording a B3 sample at the facility bench"
               width={1600}
               height={1008}

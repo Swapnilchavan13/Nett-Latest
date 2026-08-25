@@ -19,7 +19,7 @@ export function BiocharOpening() {
       {/* Credibility opening */}
       <div className="relative min-h-[100svh] overflow-hidden">
         <img
-          src="https://i.postimg.cc/qMx3zs9W/Whats-App-Image-2026-01-09-at-5-54-28-PM.jpg"
+          src="https://iili.io/q5tXiRR.jpg"
           alt="Artisanal biochar kiln burning at a rural production site at dawn"
           width={1600}
           height={1008}

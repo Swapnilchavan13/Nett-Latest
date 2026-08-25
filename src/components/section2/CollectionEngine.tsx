@@ -31,12 +31,12 @@ const STAGES = [
   {
     key: "Store",
     line: "Seasonal harvests are aggregated and stored to create dependable supply beyond the harvest window.",
-    image: "https://i.postimg.cc/ydXbfsjr/IMG-7218.jpg",
+    image: "https://iili.io/fOZpYL7.png",
   },
   {
     key: "Move",
     line: "Routes, vehicles, payloads and distances are planned around the economics of every tonne delivered.",
-    image: move,
+    image: "https://iili.io/fOZaMNf.jpg",
   },
 ];
 

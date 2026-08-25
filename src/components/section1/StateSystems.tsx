@@ -8,12 +8,12 @@ import health from "@/assets/node-health.jpg";
 import income from "@/assets/node-income.jpg";
 
 const NODES = [
-  { word: "Soil", note: "Depleted. Losing the carbon it once held.", image: soil },
+  { word: "Soil", note: "Depleted. Losing the carbon it once held.", image: "https://iili.io/fOZpl1e.png" },
   { word: "Air", note: "Loaded with what the land released.", image: air },
-  { word: "Water", note: "Running off ground that can no longer hold it.", image: water },
-  { word: "Food", note: "Grown from soil that is quietly thinning.", image: food },
-  { word: "Health", note: "Breathing the smoke of what we burn.", image: health },
-  { word: "Income", note: "Yield and livelihood, tied to the same ground.", image: income },
+  { word: "Water", note: "Running off ground that can no longer hold it.", image: "https://web-assets.bcg.com/8e/cf/276ec569492cb6f13a8b56061b35/what-is-water-really-worth-report-rectangle.jpg" },
+  { word: "Food", note: "Grown from soil that is quietly thinning.", image: "https://iili.io/fgqigYQ.webp" },
+  { word: "Health", note: "Breathing the smoke of what we burn.", image: "https://iili.io/BBJ9bdG.png" },
+  { word: "Income", note: "Yield and livelihood, tied to the same ground.", image: "https://iili.io/BJRtGHl.jpg" },
 ];
 
 const SLOT = 0.082;

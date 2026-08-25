@@ -35,9 +35,9 @@ export const BIOCHAR_SITES: BiocharSite[] = [
     about:
       "Short description of the site, the local biomass context and why this location matters. Two to three lines.",
     gallery: [
-      { src: "https://i.postimg.cc/PqFWTcxj/Whats-App-Image-2026-01-09-at-5-54-26-PM.jpg", alt: "Biochar production site — placeholder photograph" },
-      { src: "https://i.postimg.cc/PqFWTcxj/Whats-App-Image-2026-01-09-at-5-54-26-PM.jpg", alt: "Freshly produced biochar — placeholder photograph" },
-      { src: "https://i.postimg.cc/PqFWTcxj/Whats-App-Image-2026-01-09-at-5-54-26-PM.jpg", alt: "Site landscape — placeholder photograph" },
+      { src: "https://iili.io/BJRtkUx.jpg", alt: "Biochar production site — placeholder photograph" },
+      { src: "https://iili.io/BJRtkUx.jpg", alt: "Freshly produced biochar — placeholder photograph" },
+      { src: "https://iili.io/BJRtkUx.jpg", alt: "Site landscape — placeholder photograph" },
     ],
   },
   {
