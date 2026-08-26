@@ -1,5 +1,7 @@
 import { Reveal } from "@/components/section1/Reveal";
 import { CarbonAtom, NettZeroMark } from "@/components/section1/CarbonAtom";
+import logo from "@/assets/nettzero-logo.webp";
+
 
 const SPINE = [
   "6 sites",
@@ -51,8 +53,12 @@ export function BiocharClose() {
 
         <Reveal threshold={0.2} delay={340}>
           <div className="mx-auto mt-[10svh] w-52">
-            <NettZeroMark invert />
-          </div>
+  <img
+     src={logo}
+    alt="NettZero"
+    className="w-full h-auto object-contain"
+  />
+</div>
         </Reveal>
         <Reveal threshold={0.2} delay={420}>
           <p className="label-lead mt-8">NettZero Biochar</p>

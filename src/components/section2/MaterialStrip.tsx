@@ -6,10 +6,10 @@ import corn from "@/assets/s2-corn.jpg";
 import prunings from "@/assets/s2-prunings.jpg";
 
 const MATERIALS = [
-  { name: "Rice straw", image: riceStraw },
-  { name: "Rice husk", image: riceHusk },
-  { name: "Mustard residue", image: mustard },
-  { name: "Corn residue", image: corn },
+  { name: "Rice straw", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8lKdJP8Sa6gVIsurdMryWdTeWZlvRQHdAnKSi05rT5ER-FhlHEwrzLMM&s=10" },
+  { name: "Rice husk", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz7TqWQWKzhDwNUgdmT_z-i71NgQy9EL62JVl9W37mKQae7Wz5JAwcXh0&s=10" },
+  { name: "Mustard residue", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQSJryKeeF6yy7LXaKzildh6-S4q6Uh-D1NX8rxWNNKwd9daU2h06JN-s&s=10" },
+  { name: "Corn residue", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo59zc0-aAFsZoUbfZBplGuZOnlHodmuhIPwFhCq-j0JL18l6IQEhHmyE&s=10" },
   { name: "Orchard prunings", image: prunings },
 ];
 

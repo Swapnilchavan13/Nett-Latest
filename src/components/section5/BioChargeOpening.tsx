@@ -14,7 +14,7 @@ export function BioChargeOpening() {
     <section id="section-5-biocharge" className="relative scroll-mt-16 bg-carbon text-atmosphere">
       <div className="relative min-h-[100svh] overflow-hidden">
         <img
-          src={stacks}
+          src="https://iili.io/fOZauwv.jpg"
           alt="Vast stacks of baled agricultural residue at an industrial biomass yard"
           width={1600}
           height={1000}

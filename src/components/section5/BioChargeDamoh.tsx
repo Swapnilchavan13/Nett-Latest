@@ -16,7 +16,7 @@ const YARD = [
   { src: "https://iili.io/fkMuDyF.jpg", alt: "Loader moving processed biomass", cap: "Machinery" },
   { src: "https://iili.io/q5th2b2.jpg", alt: "Biomass shredding and processing line", cap: "Processing" },
   { src: "https://iili.io/q5thJR4.jpg", alt: "Sized, processed biomass fuel", cap: "Processed biomass" },
-  { src: quality, alt: "Fuel parameters being tested against customer requirements", cap: "Quality" },
+  { src: "https://iili.io/fe5y8CB.jpg", alt: "Fuel parameters being tested against customer requirements", cap: "Quality" },
   { src: "https://iili.io/BJRtkUx.jpg", alt: "Damoh operations team", cap: "Operations team" },
 ];
 
