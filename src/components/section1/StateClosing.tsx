@@ -1,5 +1,7 @@
 import { Reveal } from "./Reveal";
-import { CarbonAtom, NettZeroMark } from "./CarbonAtom";
+import { CarbonAtom } from "./CarbonAtom";
+import logo from "@/assets/nettzero-logo.webp";
+
 
 export function StateClosing() {
   return (
@@ -14,7 +16,11 @@ export function StateClosing() {
         </div>
         <Reveal threshold={0.2}>
           <div className="w-[min(78vw,540px)]">
-            <NettZeroMark />
+             <img
+              src={logo}
+              alt="NettZero"
+              className="h-7 w-auto"
+            />
           </div>
         </Reveal>
         <Reveal delay={160}>
