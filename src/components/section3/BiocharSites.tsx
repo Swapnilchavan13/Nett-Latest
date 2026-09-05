@@ -101,7 +101,7 @@ export function BiocharSites() {
         </Reveal>
         <Reveal threshold={0.2} delay={140}>
           <h3 className="display-xl mt-8">
-            Six sites.
+            Four sites.
             <br />
             One approach.
           </h3>

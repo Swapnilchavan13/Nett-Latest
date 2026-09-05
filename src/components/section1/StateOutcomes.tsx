@@ -12,21 +12,21 @@ const OUTCOMES = [
     node: "Air",
     headline: "Less pollution.",
     body: "Prevent agricultural biomass from being openly burned and reduce associated smoke and particulate pollution.",
-    image: air,
+    image: "https://i.ibb.co/ksYrg32t/IMG-0084-JPG-1.jpg",
     metric: "Carbon \u2193 in the air",
   },
   {
     node: "Soil",
     headline: "Restore carbon.",
     body: "Return stable carbon to depleted agricultural soils and help rebuild soil condition.",
-    image: "https://i.postimg.cc/8P6Z30fr/Trees1-Danielle-Austen.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_iG31nEyzuYpHCo2OWBA9ycKH32RaQ4BqQloAsBJX1g&s=10",
     metric: "Carbon \u2191 in the soil",
   },
   {
     node: "Water",
     headline: "Hold more. Waste less.",
     body: "Improve the soil's relationship with water, helping retain moisture longer and improve irrigation efficiency.",
-    image: "https://i.postimg.cc/tTShRc4h/Whats-App-Image-2026-01-09-at-5-54-11-PM-(1).jpg",
+    image: "https://i.ibb.co/0j8nJw5K/Image-2-3.jpg",
     metric: "Moisture held longer",
   },
   {
@@ -47,7 +47,7 @@ const OUTCOMES = [
     node: "Income",
     headline: "Turn waste into value.",
     body: "Transform agricultural residue from a disposal burden into an economic resource while supporting the long-term productive resilience of farmland.",
-    image: "https://i.postimg.cc/cJwZLmzR/Whats-App-Image-2026-01-09-at-5-54-26-PM.jpg",
+    image: "https://i.ibb.co/G41K09SN/IMG-20260810-WA0018.jpg",
     metric: "Residue becomes revenue",
   },
 ];

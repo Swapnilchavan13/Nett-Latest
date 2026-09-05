@@ -8,12 +8,12 @@ import health from "@/assets/node-health.jpg";
 import income from "@/assets/node-income.jpg";
 
 const NODES = [
-  { word: "Soil", note: "Depleted. Losing the carbon it once held.", image: "https://iili.io/fOZpl1e.png" },
-  { word: "Air", note: "Loaded with what the land released.", image: air },
-  { word: "Water", note: "Running off ground that can no longer hold it.", image: "https://web-assets.bcg.com/8e/cf/276ec569492cb6f13a8b56061b35/what-is-water-really-worth-report-rectangle.jpg" },
-  { word: "Food", note: "Grown from soil that is quietly thinning.", image: "https://iili.io/fgqigYQ.webp" },
-  { word: "Health", note: "Breathing the smoke of what we burn.", image: "https://iili.io/BBJ9bdG.png" },
-  { word: "Income", note: "Yield and livelihood, tied to the same ground.", image: "https://iili.io/BJRtGHl.jpg" },
+  { word: "Soil", note: "Depleted. Losing the carbon it once held.", image: "https://t4.ftcdn.net/jpg/00/92/05/97/360_F_92059706_JKCwjvKFKowSm2u279o1NNP1kNxrlALu.jpg" },
+  { word: "Air", note: "Loaded with what the land released.", image: "https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2020/09/28/Pictures/september-hindustan-september-asarpur-stubble-burning-patiala_8a2fc2ec-0112-11eb-b32f-32d5f7e2c720.jpg" },
+  { word: "Water", note: "Running off ground that can no longer hold it.", image: "https://wmo.int/sites/default/files/styles/featured_image_x1_768x512/public/2024-12/drought.jpg" },
+  { word: "Food", note: "Grown from soil that is quietly thinning.", image: "https://etimg.etb2bimg.com/thumb/msid-131505728,width-1200,height-900,resizemode-4/.jpg" },
+  { word: "Health", note: "Breathing the smoke of what we burn.", image: "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/13-10-2020_UNICEF-I365340_India_rural.jpg/image770x420cropped.jpg" },
+  // { word: "Income", note: "Yield and livelihood, tied to the same ground.", image: "https://iili.io/BJRtGHl.jpg" },
 ];
 
 const SLOT = 0.082;
@@ -81,7 +81,7 @@ export function StateSystems() {
                 className="absolute inset-0"
                 style={{
                   background:
-                    "linear-gradient(to right, color-mix(in oklab, var(--ink) 88%, transparent) 0%, color-mix(in oklab, var(--ink) 62%, transparent) 62%, color-mix(in oklab, var(--ink) 45%, transparent) 100%)",
+                    "linear-gradient(to right, color-mix(in oklab, var(--ink) 10%, transparent) 0%, color-mix(in oklab, var(--ink) 42%, transparent) 62%, color-mix(in oklab, var(--ink) 45%, transparent) 100%)",
                 }}
               />
             </div>
@@ -239,7 +239,7 @@ export function StateSystems() {
         </div>
 
         <p
-          className="label-lead absolute inset-x-6 top-[9svh] text-center text-atmosphere/75 sm:inset-x-14"
+          className="label-lead absolute inset-x-6 top-[13svh] text-center text-atmosphere/75 sm:inset-x-14"
           style={{ opacity: threadLine }}
         >
           They share a common thread

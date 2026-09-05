@@ -35,7 +35,7 @@ export function StateClosing() {
               <span
                 key={word}
                 className="font-display text-3xl font-semibold text-soil sm:text-5xl"
-              >
+              > 
                 {word}
               </span>
             ))}

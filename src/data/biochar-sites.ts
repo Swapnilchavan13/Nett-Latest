@@ -1,3 +1,4 @@
+
 import siteA from "@/assets/s3-site-a.jpg";
 import siteB from "@/assets/s3-site-b.jpg";
 import siteC from "@/assets/s3-site-c.jpg";
@@ -6,7 +7,7 @@ import biocharSoil from "@/assets/s3-biochar-soil.jpg";
 import mrv from "@/assets/s3-mrv.jpg";
 
 export type BiocharSite = {
-  /** Editable placeholder — replace with the verified site name. */
+  /** Verified site name. */
   name: string;
   place: string;
   state: string;
@@ -19,95 +20,98 @@ export type BiocharSite = {
   gallery: { src: string; alt: string }[];
 };
 
-/**
- * PLACEHOLDER DATA.
- * Every field below is a placeholder awaiting verified information and
- * photography. To update a site, edit only the object entry — layout,
- * gallery behaviour and ordering are handled by the components.
- */
 export const BIOCHAR_SITES: BiocharSite[] = [
   {
-    name: "Site One",
-    place: "Place name",
-    state: "State",
-    biomass: "Biomass type",
+    name: "Rajgarh",
+    place: "Rajgarh",
+    state: "Himachal Pradesh",
+    biomass: "Orchard prunings",
     co2Removed: "—",
     about:
-      "Short description of the site, the local biomass context and why this location matters. Two to three lines.",
+      "We are creating biochar using orchard prunings from over 100,000 trees — which were earlier getting burnt — transforming agricultural waste into a powerful carbon sequestration tool.",
     gallery: [
-      { src: "https://iili.io/BJRtkUx.jpg", alt: "Biochar production site — placeholder photograph" },
-      { src: "https://iili.io/BJRtkUx.jpg", alt: "Freshly produced biochar — placeholder photograph" },
-      { src: "https://iili.io/BJRtkUx.jpg", alt: "Site landscape — placeholder photograph" },
+      {
+        src: "https://iili.io/q5D0ESp.jpg",
+        alt: "Biochar production from orchard prunings in Rajgarh",
+      },
+      {
+        src: "https://iili.io/q5D0wVs.jpg",
+        alt: "Freshly produced biochar in Rajgarh",
+      },
+      {
+        src: "https://iili.io/q5D0eff.jpg",
+        alt: "Orchard landscape in Rajgarh",
+      },
     ],
   },
   {
-    name: "Site Two",
-    place: "Place name",
-    state: "State",
-    biomass: "Biomass type",
+    name: "Puranpur",
+    place: "Puranpur",
+    state: "Uttar Pradesh",
+    biomass: "Rice straw",
     co2Removed: "—",
     about:
-      "Short description of the site, the local biomass context and why this location matters. Two to three lines.",
+      "We are creating biochar using rice straw from over 5,000 farmers — directly preventing hundreds of tons of PM2.5 from affecting the AQI and improving regional air quality.",
     gallery: [
-      { src: "https://i.postimg.cc/k4Fpjqsk/IMG-7388.jpg", alt: "Site landscape — placeholder photograph" },
-      { src: "https://i.postimg.cc/k4Fpjqsk/IMG-7388.jpg", alt: "Kiln in operation — placeholder photograph" },
-      { src: "https://i.postimg.cc/k4Fpjqsk/IMG-7388.jpg", alt: "Freshly produced biochar — placeholder photograph" },
+      {
+        src: "https://iili.io/q5thJR4.jpg",
+        alt: "Rice straw biochar project in Puranpur",
+      },
+      {
+        src: "https://iili.io/q5thJR4.jpg",
+        alt: "Biochar production operations in Puranpur",
+      },
+      {
+        src: "https://i.postimg.cc/9MtnxCbb/IMG-7221.jpg",
+        alt: "Freshly produced biochar in Puranpur",
+      },
     ],
   },
   {
-    name: "Site Three",
-    place: "Place name",
-    state: "State",
-    biomass: "Biomass type",
+    name: "Bandhavgarh",
+    place: "Bandhavgarh",
+    state: "Madhya Pradesh",
+    biomass: "Invasive species and rice straw",
     co2Removed: "—",
     about:
-      "Short description of the site, the local biomass context and why this location matters. Two to three lines.",
+      "We are converting invasive species and rice straw into biochar for the last 2 years. We've covered nearly 10,000 farmers and prevented over 200,000 kgs of rice straw from being burnt.",
     gallery: [
-      { src: "https://i.postimg.cc/hG3Lcwjc/E9ACE7A0-8F0E-4555-AD36-6EB8581D2A5A.jpg", alt: "Kiln in operation — placeholder photograph" },
-      { src: "https://i.postimg.cc/hG3Lcwjc/E9ACE7A0-8F0E-4555-AD36-6EB8581D2A5A.jpg", alt: "Operations crew — placeholder photograph" },
-      { src: "https://i.postimg.cc/hG3Lcwjc/E9ACE7A0-8F0E-4555-AD36-6EB8581D2A5A.jpg", alt: "Biochar going back to soil — placeholder photograph" },
+      {
+        src: "https://i.postimg.cc/k5hQqZ4r/why-bandhavgarh-national-park-banner-img.jpg",
+        alt: "Biochar kiln operations in Bandhavgarh",
+      },
+      {
+        src: "https://i.postimg.cc/k5hQqZ4r/why-bandhavgarh-national-park-banner-img.jpg",
+        alt: "Biochar project operations in Bandhavgarh",
+      },
+      {
+        src: "https://i.postimg.cc/mr6YBqrv/8981390D-7A7C-4488-9CD7-89C945C51CFB.jpg",
+        alt: "Biochar being returned to soil in Bandhavgarh",
+      },
     ],
   },
   {
-    name: "Site Four",
-    place: "Place name",
-    state: "State",
-    biomass: "Biomass type",
+    name: "Damoh",
+    place: "Damoh",
+    state: "Madhya Pradesh",
+    biomass: "Rice straw",
     co2Removed: "—",
     about:
-      "Short description of the site, the local biomass context and why this location matters. Two to three lines.",
+      "We are converting rice straw into biochar and working with a cooperative of over 20,000 farmers. This year, we will prevent 300,000 kgs of rice straw from being burnt.",
     gallery: [
-      { src: "https://i.postimg.cc/Pfy7YfP5/IMG-7828.jpg", alt: "Freshly produced biochar — placeholder photograph" },
-      { src: "https://i.postimg.cc/Pfy7YfP5/IMG-7828.jpg", alt: "Field measurement — placeholder photograph" },
-      { src: "https://i.postimg.cc/Pfy7YfP5/IMG-7828.jpg", alt: "Site landscape — placeholder photograph" },
-    ],
-  },
-  {
-    name: "Site Five",
-    place: "Place name",
-    state: "State",
-    biomass: "Biomass type",
-    co2Removed: "—",
-    about:
-      "Short description of the site, the local biomass context and why this location matters. Two to three lines.",
-    gallery: [
-      { src: "https://i.postimg.cc/mr6YBqrv/8981390D-7A7C-4488-9CD7-89C945C51CFB.jpg", alt: "Biochar going back to soil — placeholder photograph" },
-      { src: "https://i.postimg.cc/mr6YBqrv/8981390D-7A7C-4488-9CD7-89C945C51CFB.jpg", alt: "Operations crew — placeholder photograph" },
-      { src: "https://i.postimg.cc/mr6YBqrv/8981390D-7A7C-4488-9CD7-89C945C51CFB.jpg", alt: "Kiln in operation — placeholder photograph" },
-    ],
-  },
-  {
-    name: "Site Six",
-    place: "Place name",
-    state: "State",
-    biomass: "Biomass type",
-    co2Removed: "—",
-    about:
-      "Short description of the site, the local biomass context and why this location matters. Two to three lines.",
-    gallery: [
-      { src: "https://i.postimg.cc/d3pJ5tSv/Homepage-Slider3-Farmers2.png", alt: "Field measurement — placeholder photograph" },
-      { src: "https://i.postimg.cc/d3pJ5tSv/Homepage-Slider3-Farmers2.png", alt: "Site landscape — placeholder photograph" },
-      { src: "https://i.postimg.cc/d3pJ5tSv/Homepage-Slider3-Farmers2.png", alt: "Operations crew — placeholder photograph" },
+      {
+        src: "https://i.postimg.cc/hG3Lcwjc/E9ACE7A0-8F0E-4555-AD36-6EB8581D2A5A.jpg",
+        alt: "Rice straw biochar project in Damoh",
+      },
+      {
+        src: "https://i.postimg.cc/hG3Lcwjc/E9ACE7A0-8F0E-4555-AD36-6EB8581D2A5A.jpg",
+        alt: "Biochar production operations in Damoh",
+      },
+      {
+        src: "https://iili.io/qcZWQ6l.jpg",
+        alt: "Field implementation in Damoh",
+      },
     ],
   },
 ];
+

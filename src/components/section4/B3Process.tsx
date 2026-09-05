@@ -12,7 +12,7 @@ const STEPS = [
   { n: "03", name: "Blend", src: "https://iili.io/q5D01lR.jpg", alt: "Biochar blended with organic material", note: "Blended with organic material." },
   { n: "04", name: "Inoculate", src: "https://iili.io/q5D0ESp.jpg", alt: "Jeevamrut biological inoculant poured over the blend", note: "Biologically inoculated with Jeevamrut." },
   { n: "05", name: "Cure", src: "https://iili.io/BJ5PVIe.jpg", alt: "Blended material curing in covered heaps", note: "Cured for approximately 12 days." },
-  { n: "06", name: "B3", src: "https://iili.io/BJ5i23l.jpg", alt: "Finished B3 packed into bags", note: "Finished, bagged, field-ready." },
+  { n: "06", name: "B3", src: "https://i.ibb.co/RGqR05NC/IMG-20260811-WA0012.jpg", alt: "Finished B3 packed into bags", note: "Finished, bagged, field-ready." },
 ];
 
 export function B3Process() {

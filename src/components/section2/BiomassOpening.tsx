@@ -9,7 +9,7 @@ export function BiomassOpening() {
       {/* Opening */}
       <div className="relative min-h-[100svh] overflow-hidden">
         <img
-          src="https://i.postimg.cc/tTShRc4F/Whats-App-Image-2026-01-09-at-5-54-28-PM.jpg"
+          src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202504/paddy-field-230021521-16x9_0.jpg?VersionId=1XxrW8SnGVdrE3N2cgaBUpzs4DPOOVwv"
           alt="Aerial view of harvested farmland with rows of crop residue"
           width={1600}
           height={1000}
@@ -52,7 +52,7 @@ export function BiomassOpening() {
       {/* The challenge */}
       <div className="relative min-h-[100svh] overflow-hidden">
         <img
-          src="https://i.postimg.cc/hG3LcwjK/Whats-App-Image-2026-01-10-at-3-05-05-PM.jpg"
+          src="https://i.ibb.co/prr84tHK/IMG-0281-JPG.jpg"
           alt="Compacted straw bales stacked in a field"
           width={1400}
           height={1000}

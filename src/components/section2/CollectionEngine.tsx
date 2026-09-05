@@ -11,7 +11,7 @@ const STAGES = [
   {
     key: "Farmers",
     line: "We work directly with farming communities — educating, registering, coordinating and paying farmers for usable crop residue.",
-    image: "https://i.postimg.cc/RFQDP4dR/IMG-7345.jpg",
+    image: "https://cdn.pixabay.com/photo/2022/09/15/18/40/farmers-7457046_1280.jpg",
   },
   {
     key: "Map",
@@ -31,12 +31,12 @@ const STAGES = [
   {
     key: "Store",
     line: "Seasonal harvests are aggregated and stored to create dependable supply beyond the harvest window.",
-    image: "https://iili.io/fOZpYL7.png",
+    image: "https://thumbs.dreamstime.com/b/big-pile-square-straw-bales-straw-bales-piled-up-to-big-stack-to-transport-them-trucks-283495429.jpg",
   },
   {
     key: "Move",
     line: "Routes, vehicles, payloads and distances are planned around the economics of every tonne delivered.",
-    image: "https://iili.io/fOZaMNf.jpg",
+    image: "https://i.ibb.co/5WDhmgM6/Whats-App-Image-2026-09-04-at-6-40-21-PM.jpg",
   },
 ];
 
