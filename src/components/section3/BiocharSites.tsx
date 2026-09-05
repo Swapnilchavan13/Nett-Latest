@@ -35,7 +35,7 @@ function SiteCard({ site, index }: { site: BiocharSite; index: number }) {
             />
             <figcaption className="absolute bottom-5 left-5 right-5">
               <p className="label-eyebrow text-ochre">
-                0{index + 1} &nbsp;/&nbsp; 06
+                0{index + 1} &nbsp;/&nbsp; 04
               </p>
               <p className="display-md mt-2">{site.name}</p>
             </figcaption>

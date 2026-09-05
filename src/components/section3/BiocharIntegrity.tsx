@@ -15,7 +15,7 @@ export function BiocharIntegrity() {
     <section className="relative bg-ink text-atmosphere">
       <div className="relative min-h-[100svh] overflow-hidden">
         <img
-          src="https://i.ibb.co/RGqR05NC/IMG-20260811-WA0012.jpg"
+          src="https://i.ibb.co/Ld1dp4BD/Gemini-Generated-Image-62d45562d45562d4.jpg"
           alt="Field operator recording production data beside a sack of biochar"
           width={1600}
           height={1008}

@@ -5,7 +5,6 @@ import air from "@/assets/node-air.jpg";
 import water from "@/assets/node-water.jpg";
 import food from "@/assets/node-food.jpg";
 import health from "@/assets/node-health.jpg";
-import income from "@/assets/node-income.jpg";
 
 const NODES = [
   { word: "Soil", note: "Depleted. Losing the carbon it once held.", image: "https://t4.ftcdn.net/jpg/00/92/05/97/360_F_92059706_JKCwjvKFKowSm2u279o1NNP1kNxrlALu.jpg" },
@@ -13,12 +12,11 @@ const NODES = [
   { word: "Water", note: "Running off ground that can no longer hold it.", image: "https://wmo.int/sites/default/files/styles/featured_image_x1_768x512/public/2024-12/drought.jpg" },
   { word: "Food", note: "Grown from soil that is quietly thinning.", image: "https://etimg.etb2bimg.com/thumb/msid-131505728,width-1200,height-900,resizemode-4/.jpg" },
   { word: "Health", note: "Breathing the smoke of what we burn.", image: "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/13-10-2020_UNICEF-I365340_India_rural.jpg/image770x420cropped.jpg" },
-  // { word: "Income", note: "Yield and livelihood, tied to the same ground.", image: "https://iili.io/BJRtGHl.jpg" },
 ];
 
 const SLOT = 0.082;
 const FIRST = 0.05;
-const PHASE_A_END = FIRST + SLOT * NODES.length; // ≈ 0.54
+const PHASE_A_END = FIRST + SLOT * NODES.length; // ≈ 0.46
 
 /** Ethereal drifting motes, animated purely in CSS so scroll stays smooth. */
 const MOTES = Array.from({ length: 26 }, (_, i) => ({
@@ -107,7 +105,7 @@ export function StateSystems() {
           ))}
         </div>
 
-        {/* PHASE A — the six systems, one by one (rail format) */}
+        {/* PHASE A — the five systems, one by one (rail format) */}
         <div
           className="absolute inset-0"
           style={{ opacity: 1 - listOut, pointerEvents: "none" }}
@@ -116,7 +114,7 @@ export function StateSystems() {
             className="label-lead absolute inset-x-6 top-[9svh] text-atmosphere/70 sm:inset-x-10"
             style={{ opacity: ease(range(progress, 0.01, 0.05)) }}
           >
-            Six systems, one thread
+            Five systems, one thread
           </p>
 
           {/* stage copy */}
@@ -140,7 +138,7 @@ export function StateSystems() {
                   }}
                 >
                   <p className="label-lead text-ochre">
-                    0{i + 1} &nbsp;/&nbsp; 06
+                    0{i + 1} &nbsp;/&nbsp; 05
                   </p>
                   <h3
                     className="mt-5 font-display"
@@ -161,6 +159,14 @@ export function StateSystems() {
 
           {/* the connected rail */}
           <div className="absolute inset-x-0 bottom-[8svh] mx-auto max-w-6xl px-6 sm:px-10">
+            {/* Placed above the rail line with increased font size */}
+            <p
+              className="label-lead mb-4 text-lg font-medium text-ochre sm:text-xl"
+              style={{ opacity: ease(range(progress, PHASE_A_END - 0.08, PHASE_A_END - 0.01)) }}
+            >
+              All in distress. All connected.
+            </p>
+
             <div className="relative h-px w-full bg-atmosphere/25">
               <div
                 className="absolute left-0 top-0 h-px bg-ochre"
@@ -182,12 +188,6 @@ export function StateSystems() {
                 </li>
               ))}
             </ol>
-            <p
-              className="label-lead mt-8 text-ochre"
-              style={{ opacity: ease(range(progress, PHASE_A_END - 0.08, PHASE_A_END - 0.01)) }}
-            >
-              All in distress. All connected.
-            </p>
           </div>
         </div>
 
@@ -203,7 +203,8 @@ export function StateSystems() {
             <CarbonAtom className="opacity-90" />
 
             {NODES.map((node, i) => {
-              const a = ((-90 + i * 60) * Math.PI) / 180;
+              const angleInDegrees = -90 + i * (360 / NODES.length);
+              const a = (angleInDegrees * Math.PI) / 180;
               const r = mix(58, 50, ringIn);
               return (
                 <span
@@ -249,7 +250,7 @@ export function StateSystems() {
 
       {/* Screen-reader / no-JS narrative */}
       <div className="sr-only">
-        <h2>Soil. Air. Water. Food. Health. Income.</h2>
+        <h2>Soil. Air. Water. Food. Health.</h2>
         <p>
           They are all in distress, and they are more connected than we think. They share a common
           thread: carbon. Too much carbon is being released into our air, and too little carbon

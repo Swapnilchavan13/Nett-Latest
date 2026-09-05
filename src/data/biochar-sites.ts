@@ -1,4 +1,3 @@
-
 import siteA from "@/assets/s3-site-a.jpg";
 import siteB from "@/assets/s3-site-b.jpg";
 import siteC from "@/assets/s3-site-c.jpg";
@@ -31,7 +30,7 @@ export const BIOCHAR_SITES: BiocharSite[] = [
       "We are creating biochar using orchard prunings from over 100,000 trees — which were earlier getting burnt — transforming agricultural waste into a powerful carbon sequestration tool.",
     gallery: [
       {
-        src: "https://iili.io/q5D0ESp.jpg",
+        src: "https://eu-images.contentstack.com/v3/assets/bltdd43779342bd9107/blt9cbd08a1517cb5bd/63909a4104eb377682c5424e/1biochar-medium_0.jpg",
         alt: "Biochar production from orchard prunings in Rajgarh",
       },
       {
@@ -45,25 +44,25 @@ export const BIOCHAR_SITES: BiocharSite[] = [
     ],
   },
   {
-    name: "Puranpur",
-    place: "Puranpur",
+    name: "Sitamarhi",
+    place: "Sitamarhi",
     state: "Uttar Pradesh",
-    biomass: "Rice straw",
+    biomass: "Mustard stalks",
     co2Removed: "—",
     about:
-      "We are creating biochar using rice straw from over 5,000 farmers — directly preventing hundreds of tons of PM2.5 from affecting the AQI and improving regional air quality.",
+      "In the vast tracts between Prayagraj and Varanasi, mustard stalks are burnt across hundreds of acres. Our project works with farmers to convert this biomass into high-quality biochar that is returned to the soil.",
     gallery: [
       {
         src: "https://iili.io/q5thJR4.jpg",
-        alt: "Rice straw biochar project in Puranpur",
+        alt: "Mustard stalk biochar project in Sitamarhi",
       },
       {
         src: "https://iili.io/q5thJR4.jpg",
-        alt: "Biochar production operations in Puranpur",
+        alt: "Biochar production operations in Sitamarhi",
       },
       {
         src: "https://i.postimg.cc/9MtnxCbb/IMG-7221.jpg",
-        alt: "Freshly produced biochar in Puranpur",
+        alt: "Freshly produced biochar in Sitamarhi",
       },
     ],
   },
@@ -77,7 +76,7 @@ export const BIOCHAR_SITES: BiocharSite[] = [
       "We are converting invasive species and rice straw into biochar for the last 2 years. We've covered nearly 10,000 farmers and prevented over 200,000 kgs of rice straw from being burnt.",
     gallery: [
       {
-        src: "https://i.postimg.cc/k5hQqZ4r/why-bandhavgarh-national-park-banner-img.jpg",
+        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPFeKXMVsBTv-Hi51LoLYN-6sL_BS6bKOICbpLBZ5yLUuwLDFa6Kc5Jxw&s=10",
         alt: "Biochar kiln operations in Bandhavgarh",
       },
       {
@@ -114,4 +113,3 @@ export const BIOCHAR_SITES: BiocharSite[] = [
     ],
   },
 ];
-

@@ -11,17 +11,17 @@ const STAGES = [
   {
     key: "Farmers",
     line: "We work directly with farming communities — educating, registering, coordinating and paying farmers for usable crop residue.",
-    image: "https://cdn.pixabay.com/photo/2022/09/15/18/40/farmers-7457046_1280.jpg",
+    image: "https://files.prokerala.com/news/photos/imgs/1024/local-workers-plant-rice-saplings-at-a-paddy-1384434.jpg",
   },
   {
     key: "Map",
     line: "Fields, biomass availability, collection clusters, storage points and destinations are mapped before movement begins.",
-    image: "https://i.postimg.cc/L5JjJVJn/Whats-App-Image-2026-01-09-at-5-54-11-PM.jpg",
+    image: "https://i.ibb.co/S48VfB2g/Gemini-Generated-Image-u01qusu01qusu01q.jpg",
   },
   {
     key: "Machines",
     line: "Balers, tractors, loaders and other equipment are deployed around harvest windows and biomass clusters.",
-    image: "https://i.postimg.cc/ydXbfsjr/IMG-7218.jpg",
+    image: "https://i.ibb.co/Xxz4g7Sz/Gemini-Generated-Image-onaossonaossonao.jpg",
   },
   {
     key: "Bale",

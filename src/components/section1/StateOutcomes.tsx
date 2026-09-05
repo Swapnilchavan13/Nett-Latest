@@ -33,7 +33,7 @@ const OUTCOMES = [
     node: "Food",
     headline: "Build from the soil up.",
     body: "Improve the soil conditions on which productive and resilient agriculture ultimately depends.",
-    image: "https://i.postimg.cc/02bnT2rY/Homepage-Slider3-Rice-Straw.png",
+    image: "https://t4.ftcdn.net/jpg/00/92/05/97/360_F_92059706_JKCwjvKFKowSm2u279o1NNP1kNxrlALu.jpg",
     metric: "Resilient yield",
   },
   {
