@@ -47,7 +47,7 @@ const OUTCOMES = [
     node: "Income",
     headline: "Turn waste into value.",
     body: "Transform agricultural residue from a disposal burden into an economic resource while supporting the long-term productive resilience of farmland.",
-    image: "https://i.ibb.co/G41K09SN/IMG-20260810-WA0018.jpg",
+    image: "https://iili.io/n3atWDx.png",
     metric: "Residue becomes revenue",
   },
 ];

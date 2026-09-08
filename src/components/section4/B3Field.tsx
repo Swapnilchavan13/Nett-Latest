@@ -6,9 +6,9 @@ import application from "@/assets/s4-application.jpg";
 import paddy from "@/assets/s4-paddy-landscape.jpg";
 
 const FRAMES = [
-  { src: "https://i.ibb.co/60qnnT5V/IMG-20260812-WA0031.jpg", alt: "B3 bags arriving by trailer in a village", cap: "B3 arriving in the village" },
-  { src: "https://iili.io/fkEi6NV.jpg", alt: "Field team meeting farmers to explain B3 application", cap: "Farmer meetings and field teams" },
-  { src: "https://iili.io/fOZYyF9.jpg", alt: "Farmer broadcasting B3 across a puddled paddy field", cap: "Basal application in paddy" },
+  { src: "https://i.ibb.co/9BfyWrw/Chat-GPT-Image-Sep-8-2026-10-44-30-AM-2.png", alt: "B3 bags arriving by trailer in a village", cap: "B3 arriving in the village" },
+  { src: "https://i.ibb.co/tpYNLTJr/Whats-App-Image-2026-09-07-at-4-29-44-PM.jpg", alt: "Field team meeting farmers to explain B3 application", cap: "Farmer meetings and field teams" },
+  { src: "https://i.ibb.co/yFJsqWRR/IMG-20260810-WA0034.jpg", alt: "Farmer broadcasting B3 across a puddled paddy field", cap: "Basal application in paddy" },
 ];
 
 export function B3Field() {

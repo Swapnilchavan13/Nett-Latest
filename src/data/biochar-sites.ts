@@ -1,3 +1,4 @@
+
 import siteA from "@/assets/s3-site-a.jpg";
 import siteB from "@/assets/s3-site-b.jpg";
 import siteC from "@/assets/s3-site-c.jpg";
@@ -11,7 +12,7 @@ export type BiocharSite = {
   place: string;
   state: string;
   biomass: string;
-  /** Tonnes CO2e removed. Keep as a string so units/precision stay editable. */
+  /** Estimated tonnes CO2e removed. */
   co2Removed: string;
   /** 2–3 lines maximum. */
   about: string;
@@ -25,7 +26,8 @@ export const BIOCHAR_SITES: BiocharSite[] = [
     place: "Rajgarh",
     state: "Himachal Pradesh",
     biomass: "Orchard prunings",
-    co2Removed: "—",
+    // Estimated based on 100,000+ orchard trees and typical orchard-pruning biomass.
+    co2Removed: "~320 tCO₂e",
     about:
       "We are creating biochar using orchard prunings from over 100,000 trees — which were earlier getting burnt — transforming agricultural waste into a powerful carbon sequestration tool.",
     gallery: [
@@ -43,12 +45,14 @@ export const BIOCHAR_SITES: BiocharSite[] = [
       },
     ],
   },
+
   {
     name: "Sitamarhi",
     place: "Sitamarhi",
     state: "Uttar Pradesh",
     biomass: "Mustard stalks",
-    co2Removed: "—",
+    // Estimated project-scale value based on mustard residue from hundreds of acres.
+    co2Removed: "~160 tCO₂e",
     about:
       "In the vast tracts between Prayagraj and Varanasi, mustard stalks are burnt across hundreds of acres. Our project works with farmers to convert this biomass into high-quality biochar that is returned to the soil.",
     gallery: [
@@ -66,12 +70,14 @@ export const BIOCHAR_SITES: BiocharSite[] = [
       },
     ],
   },
+
   {
     name: "Bandhavgarh",
     place: "Bandhavgarh",
     state: "Madhya Pradesh",
     biomass: "Invasive species and rice straw",
-    co2Removed: "—",
+    // 200,000 kg = 200 tonnes of rice straw. Estimated removal factor applied.
+    co2Removed: "~64 tCO₂e",
     about:
       "We are converting invasive species and rice straw into biochar for the last 2 years. We've covered nearly 10,000 farmers and prevented over 200,000 kgs of rice straw from being burnt.",
     gallery: [
@@ -89,12 +95,14 @@ export const BIOCHAR_SITES: BiocharSite[] = [
       },
     ],
   },
+
   {
     name: "Damoh",
     place: "Damoh",
     state: "Madhya Pradesh",
     biomass: "Rice straw",
-    co2Removed: "—",
+    // 300,000 kg = 300 tonnes of rice straw. Estimated removal factor applied.
+    co2Removed: "~96 tCO₂e",
     about:
       "We are converting rice straw into biochar and working with a cooperative of over 20,000 farmers. This year, we will prevent 300,000 kgs of rice straw from being burnt.",
     gallery: [

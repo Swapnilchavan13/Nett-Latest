@@ -18,13 +18,13 @@ function SiteCard({ site, index }: { site: BiocharSite; index: number }) {
         >
           <figure className="relative h-[42svh] overflow-hidden">
             <img
-              src={hero.src}
-              alt={hero.alt}
-              width={1408}
-              height={1008}
-              loading="lazy"
-              className="h-full w-full object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
-            />
+    src={hero.src}
+    alt={hero.alt}
+    width={1408}
+    height={1008}
+    loading="lazy"
+    className="h-full w-full rounded-2xl object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
+  />
             <div
               className="absolute inset-0"
               aria-hidden="true"

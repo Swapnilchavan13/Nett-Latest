@@ -9,7 +9,7 @@ export type Metric = { value: string; label: string; note?: string };
 
 export const DAMOH_METRICS: Metric[] = [
   { value: "50,000–70,000", label: "Tonnes", note: "Annual biomass supply potential" },
-  { value: "4,000", label: "Farmers", note: "Connected / target network" },
+  { value: "7,500", label: "Farmers", note: "Connected / target network" },
   { value: "Multiple", label: "Biomass types", note: "Including rice and corn residues" },
 ];
 

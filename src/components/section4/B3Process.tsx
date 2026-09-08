@@ -7,11 +7,11 @@ import bags from "@/assets/s4-bags.jpg";
 import biochar from "@/assets/s3-biochar-soil.jpg";
 
 const STEPS = [
-  { n: "01", name: "Biochar", src: "https://iili.io/BJRt29V.jpg", alt: "Stable black biochar, the carbon foundation of B3", note: "Stable carbon in." },
-  { n: "02", name: "Prepare", src: "https://iili.io/q5thJR4.jpg", alt: "Biochar sieved to the required particle profile", note: "Milled and sieved to the required particle profile." },
-  { n: "03", name: "Blend", src: "https://iili.io/q5D01lR.jpg", alt: "Biochar blended with organic material", note: "Blended with organic material." },
-  { n: "04", name: "Inoculate", src: "https://iili.io/q5D0ESp.jpg", alt: "Jeevamrut biological inoculant poured over the blend", note: "Biologically inoculated with Jeevamrut." },
-  { n: "05", name: "Cure", src: "https://iili.io/BJ5PVIe.jpg", alt: "Blended material curing in covered heaps", note: "Cured for approximately 12 days." },
+  { n: "01", name: "Biochar", src: "https://i.ibb.co/G38744jb/Gemini-Generated-Image-hlxt5phlxt5phlxt-1.png", alt: "Stable black biochar, the carbon foundation of B3", note: "Stable carbon in." },
+  { n: "02", name: "Prepare", src: "https://i.ibb.co/PsxRm4Kt/Whats-App-Image-2026-09-04-at-6-40-18-PM.jpg", alt: "Biochar sieved to the required particle profile", note: "Milled and sieved to the required particle profile." },
+  { n: "03", name: "Blend", src: "https://i.ibb.co/93rB71Cn/Gemini-Generated-Image-9uu3zu9uu3zu9uu3-1.png", alt: "Biochar blended with organic material", note: "Blended with organic material." },
+  { n: "04", name: "Inoculate", src: "https://i.ibb.co/DHzdvVHf/Whats-App-Image-2026-09-07-at-3-49-01-PM.jpg", alt: "Jeevamrut biological inoculant poured over the blend", note: "Biologically inoculated with Jeevamrut." },
+  { n: "05", name: "Cure", src: "https://i.ibb.co/VptVvR4K/Gemini-Generated-Image-nc1rgznc1rgznc1r-1.png", alt: "Blended material curing in covered heaps", note: "Cured for approximately 12 days." },
   { n: "06", name: "B3", src: "https://i.ibb.co/RGqR05NC/IMG-20260811-WA0012.jpg", alt: "Finished B3 packed into bags", note: "Finished, bagged, field-ready." },
 ];
 

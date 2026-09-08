@@ -11,7 +11,7 @@ const STAGES = [
   {
     key: "Farmers",
     line: "We work directly with farming communities — educating, registering, coordinating and paying farmers for usable crop residue.",
-    image: "https://files.prokerala.com/news/photos/imgs/1024/local-workers-plant-rice-saplings-at-a-paddy-1384434.jpg",
+    image: "https://qz.com/cdn-cgi/image/width=1920,quality=85,format=auto/https://assets.qz.com/media/1aa847e52dd41c6954c7db5d89b8b122.jpg",
   },
   {
     key: "Map",
@@ -21,7 +21,7 @@ const STAGES = [
   {
     key: "Machines",
     line: "Balers, tractors, loaders and other equipment are deployed around harvest windows and biomass clusters.",
-    image: "https://i.ibb.co/Xxz4g7Sz/Gemini-Generated-Image-onaossonaossonao.jpg",
+    image: "https://i.ibb.co/5xTdsByT/Gemini-Generated-Image-gofzdugofzdugofz-1.png",
   },
   {
     key: "Bale",

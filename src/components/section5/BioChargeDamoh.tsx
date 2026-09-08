@@ -22,10 +22,10 @@ const YARD = [
 
 const JOURNEY = [
   { key: "Inbound", src: "https://iili.io/BJ5Pe2V.jpg", alt: "Trailer of biomass arriving at the hub", line: "Biomass sourced through NettZero's farmer and collection network arrives at the Damoh hub." },
-  { key: "Aggregation & storage", src: "https://iili.io/fOZpqXI.png", alt: "Covered biomass storage warehouse", line: "Large seasonal biomass volumes are consolidated and managed for dependable supply." },
-  { key: "Processing", src: "https://iili.io/fe5mnaa.jpg", alt: "Biomass being shredded and sized", line: "Biomass is prepared and sized to create a more consistent industrial fuel input." },
-  { key: "Quality", src: "https://iili.io/fOZaFZQ.jpg", alt: "Moisture and GCV testing of biomass samples", line: "Moisture, GCV and other relevant fuel parameters are monitored against customer requirements." },
-  { key: "Dispatch", src: "https://iili.io/f50DQeV.jpg", alt: "Prepared fuel being loaded for dispatch", line: "Prepared BioCharge is loaded and delivered according to industrial demand." },
+  { key: "Aggregation & storage", src: "https://i.ibb.co/M5ZcGRqZ/Whats-App-Image-2026-09-07-at-11-30-43-AM.jpg", alt: "Covered biomass storage warehouse", line: "Large seasonal biomass volumes are consolidated and managed for dependable supply." },
+  { key: "Processing", src: "https://i.ibb.co/N20Cmwp9/Gemini-Generated-Image-ra7d82ra7d82ra7d-1.png", alt: "Biomass being shredded and sized", line: "Biomass is prepared and sized to create a more consistent industrial fuel input." },
+  { key: "Quality", src: "https://i.ibb.co/Fkvw6gV8/Gemini-Generated-Image-bl8lgnbl8lgnbl8l-1.png", alt: "Moisture and GCV testing of biomass samples", line: "Moisture, GCV and other relevant fuel parameters are monitored against customer requirements." },
+  { key: "Dispatch", src: "https://i.ibb.co/cKYnh2HK/Gemini-Generated-Image-f13acxf13acxf13a.png", alt: "Prepared fuel being loaded for dispatch", line: "Prepared BioCharge is loaded and delivered according to industrial demand." },
 ];
 
 export function BioChargeDamoh() {
@@ -34,7 +34,7 @@ export function BioChargeDamoh() {
       {/* Full-width transition */}
       <div className="relative min-h-[100svh] overflow-hidden">
         <img
-          src="https://iili.io/BJ5PrQa.jpg"
+          src="https://i.ibb.co/MTGwj4t/Whats-App-Image-2026-09-07-at-11-21-46-AM.jpg"
           alt="Wide aerial view of the BioCharge biomass hub at Damoh"
           width={1600}
           height={1000}
@@ -95,7 +95,7 @@ export function BioChargeDamoh() {
       </div>
 
       {/* Yard frames */}
-      <div className="mx-auto grid max-w-6xl gap-6 px-6 pb-[14svh] sm:grid-cols-2 sm:px-10 lg:grid-cols-3">
+      {/* <div className="mx-auto grid max-w-6xl gap-6 px-6 pb-[14svh] sm:grid-cols-2 sm:px-10 lg:grid-cols-3">
         {YARD.map((f, i) => (
           <Reveal key={f.cap} threshold={0.1} delay={(i % 3) * 100}>
             <figure>
@@ -113,7 +113,7 @@ export function BioChargeDamoh() {
             </figure>
           </Reveal>
         ))}
-      </div>
+      </div> */}
 
       {/* Dispatch closing frame */}
       <div className="relative h-[70svh] overflow-hidden">
