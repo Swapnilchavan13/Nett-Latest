@@ -41,7 +41,7 @@ export function MaterialStrip() {
                     width={900}
                     height={1200}
                     loading="lazy"
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-cover rounded-[8px]"
                   />
                   <div
                     className="absolute inset-0"

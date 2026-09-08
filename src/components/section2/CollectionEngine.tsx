@@ -82,7 +82,7 @@ export function CollectionEngine() {
                   width={1400}
                   height={1000}
                   loading="lazy"
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-cover rounded-[8px]"
                   style={{ transform: `scale(${mix(1.1, 1.01, local)})`, willChange: "transform" }}
                 />
                 <div

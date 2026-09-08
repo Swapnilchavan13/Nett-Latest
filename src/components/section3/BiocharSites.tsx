@@ -23,7 +23,7 @@ function SiteCard({ site, index }: { site: BiocharSite; index: number }) {
     width={1408}
     height={1008}
     loading="lazy"
-    className="h-full w-full rounded-2xl object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
+    className="h-full w-full rounded-2xl object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04] rounded-[8px]"
   />
             <div
               className="absolute inset-0"

@@ -39,7 +39,7 @@ export function B3Field() {
                   width={1600}
                   height={1008}
                   loading="lazy"
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-cover rounded-[8px]"
                 />
               </div>
               <figcaption className="label-eyebrow mt-4 text-atmosphere/60">{f.cap}</figcaption>
@@ -56,7 +56,7 @@ export function B3Field() {
           width={1920}
           height={1080}
           loading="lazy"
-          className="absolute inset-0 h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover rounded-[8px]"
         />
         <div
           className="absolute inset-0"

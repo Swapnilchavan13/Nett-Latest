@@ -12,7 +12,7 @@ const OUTCOMES = [
     node: "Air",
     headline: "Less pollution.",
     body: "Prevent agricultural biomass from being openly burned and reduce associated smoke and particulate pollution.",
-    image: "https://i.ibb.co/ksYrg32t/IMG-0084-JPG-1.jpg",
+    image: "https://wallpaperaccess.com/full/491708.jpg",
     metric: "Carbon \u2193 in the air",
   },
   {
@@ -87,7 +87,7 @@ export function StateOutcomes() {
               width={1280}
               height={1280}
               loading="lazy"
-              className="absolute inset-0 h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full object-cover rounded-[8px]"
             />
             <div
               className="absolute inset-0"

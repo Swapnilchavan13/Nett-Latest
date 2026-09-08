@@ -37,7 +37,7 @@ export function BiocharDestination() {
               width={1600}
               height={1008}
               loading="lazy"
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover rounded-[8px]"
             />
           </figure>
         </Reveal>

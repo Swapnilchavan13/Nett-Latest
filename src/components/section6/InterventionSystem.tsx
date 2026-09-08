@@ -23,7 +23,7 @@ export function InterventionSystem() {
             loading="lazy"
             width={1920}
             height={1080}
-            className="absolute inset-0 h-full w-full object-cover"
+            className="absolute inset-0 h-full w-full object-cover rounded-[8px]"
             style={{ opacity: 0.3 + scene * 0.35, transform: `scale(${1.12 - scene * 0.1})` }}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-ink/85 via-ink/45 to-ink/90" aria-hidden="true" />

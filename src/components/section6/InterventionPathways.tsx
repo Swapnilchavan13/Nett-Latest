@@ -74,7 +74,7 @@ function PathwayPanel({ p, index }: { p: Pathway; index: number }) {
         width={1600}
         height={1100}
         aria-hidden="true"
-        className="absolute inset-0 -z-10 h-full w-full object-cover opacity-45"
+        className="absolute inset-0 -z-10 h-full w-full object-cover opacity-45 rounded-[8px]"
       />
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-ink/85 via-ink/60 to-ink/90" aria-hidden="true" />
 

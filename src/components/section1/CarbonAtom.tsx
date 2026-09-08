@@ -98,7 +98,7 @@ export function NettZeroMark({
       height={140}
       loading="eager"
       className={cn(
-        "h-auto w-full object-contain",
+        "h-auto w-full object-contain rounded-[8px]" ,
         invert && "invert",
         className
       )}

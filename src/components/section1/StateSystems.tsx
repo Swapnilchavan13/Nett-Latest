@@ -68,7 +68,7 @@ export function StateSystems() {
                 width={1280}
                 height={1280}
                 loading={i === 0 ? "eager" : "lazy"}
-                className="h-full w-full object-cover"
+                className="h-full w-full object-cover rounded-[8px]"
                 style={{
                   transform: `scale(${mix(1.12, 1.02, local)})`,
                   willChange: "transform",

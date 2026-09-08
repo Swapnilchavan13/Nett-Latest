@@ -48,7 +48,7 @@ export function BioChargeNumbers() {
               width={1600}
               height={1000}
               loading="lazy"
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover rounded-[8px]"
             />
           </div>
         </Reveal>

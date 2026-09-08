@@ -19,7 +19,7 @@ export function BiomassPayoff() {
           width={1600}
           height={1000}
           loading="lazy"
-          className="absolute inset-0 h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover rounded-[8px]"
         />
         <div
           className="absolute inset-0"

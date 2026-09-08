@@ -45,7 +45,7 @@ export function B3Process() {
                   width={1600}
                   height={1008}
                   loading="lazy"
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-cover rounded-[8px]"
                 />
               </div>
               <figcaption className="mt-5">

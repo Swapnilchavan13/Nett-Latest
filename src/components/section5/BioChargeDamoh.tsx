@@ -24,7 +24,7 @@ const JOURNEY = [
   { key: "Inbound", src: "https://iili.io/BJ5Pe2V.jpg", alt: "Trailer of biomass arriving at the hub", line: "Biomass sourced through NettZero's farmer and collection network arrives at the Damoh hub." },
   { key: "Aggregation & storage", src: "https://i.ibb.co/M5ZcGRqZ/Whats-App-Image-2026-09-07-at-11-30-43-AM.jpg", alt: "Covered biomass storage warehouse", line: "Large seasonal biomass volumes are consolidated and managed for dependable supply." },
   { key: "Processing", src: "https://i.ibb.co/N20Cmwp9/Gemini-Generated-Image-ra7d82ra7d82ra7d-1.png", alt: "Biomass being shredded and sized", line: "Biomass is prepared and sized to create a more consistent industrial fuel input." },
-  { key: "Quality", src: "https://i.ibb.co/Fkvw6gV8/Gemini-Generated-Image-bl8lgnbl8lgnbl8l-1.png", alt: "Moisture and GCV testing of biomass samples", line: "Moisture, GCV and other relevant fuel parameters are monitored against customer requirements." },
+  { key: "Quality", src: "https://5.imimg.com/data5/IOS/Default/2022/7/UO/VO/LE/12738964/product-jpeg.png", alt: "Moisture and GCV testing of biomass samples", line: "Moisture, GCV and other relevant fuel parameters are monitored against customer requirements." },
   { key: "Dispatch", src: "https://i.ibb.co/cKYnh2HK/Gemini-Generated-Image-f13acxf13acxf13a.png", alt: "Prepared fuel being loaded for dispatch", line: "Prepared BioCharge is loaded and delivered according to industrial demand." },
 ];
 
@@ -39,7 +39,7 @@ export function BioChargeDamoh() {
           width={1600}
           height={1000}
           loading="lazy"
-          className="absolute inset-0 h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover rounded-[8px]"
         />
         <div
           className="absolute inset-0"
@@ -84,7 +84,7 @@ export function BioChargeDamoh() {
                       width={1600}
                       height={1000}
                       loading="lazy"
-                      className="h-full w-full object-cover"
+                      className="h-full w-full object-cover rounded-[8px]"
                     />
                   </div>
                 </figure>
@@ -123,7 +123,7 @@ export function BioChargeDamoh() {
           width={1600}
           height={1000}
           loading="lazy"
-          className="absolute inset-0 h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover rounded-[8px]"
         />
         <div
           className="absolute inset-0"

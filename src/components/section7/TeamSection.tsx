@@ -41,7 +41,7 @@ function TeamCard({ member }: { member: TeamMember }) {
               alt={member.name}
               loading="lazy"
               referrerPolicy="no-referrer"
-              className="h-full w-full object-cover object-center"
+              className="h-full w-full object-cover object-center rounded-[8px]"
             />
           ) : (
             <span className="font-display text-xl text-graphite">{initials(member.name)}</span>

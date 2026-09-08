@@ -19,7 +19,7 @@ export function StateClosing() {
              <img
               src={logo}
               alt="NettZero"
-              className="h-7 w-auto"
+              className="h-7 w-auto rounded-[8px]"
             />
           </div>
         </Reveal>
