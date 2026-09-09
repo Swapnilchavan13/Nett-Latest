@@ -27,7 +27,7 @@ export function B3Women() {
             <h3 className="display-lg max-w-3xl">
               Made by women.
               <br />
-              Restoring the earth.
+              For Mother Earth.
             </h3>
           </Reveal>
           <Reveal threshold={0.15} delay={200}>

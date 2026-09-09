@@ -39,7 +39,7 @@ const OUTCOMES = [
   {
     node: "Health",
     headline: "Cleaner air. Healthier ecosystems.",
-    body: "Reduce exposure to pollution from residue burning while rebuilding healthier agricultural environments.",
+    body: "Food systems free from toxic chemicals. Reduce exposure to pollution from residue burning while rebuilding healthier agricultural environments.",
     image: "https://i.postimg.cc/3Rq4m7hq/IMG-7236.jpg",
     metric: "Less smoke to breathe",
   },
