@@ -35,6 +35,7 @@ import { ContactSection } from "@/components/section8/ContactSection";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 
+
 const title = "NettZero — The Carbon Placement Problem";
 const description =
   "The world doesn't just have a carbon problem. It has a carbon placement problem: too much in the atmosphere, too little in the soil.";
@@ -99,5 +100,7 @@ function Index() {
       <ContactSection />
       <SiteFooter />
     </main>
+
+
   );
 }
